@@ -245,6 +245,27 @@ a {
   color: var(--title-color);
   margin-bottom: 50px;
 }
+.occupation-list-item {
+  position: relative;
+}
+.label {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 370px;
+  height: 70px;
+  background: rgba(47, 48, 58, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /*----------------------TEAM---------------------*/
 .team {
   background: #f5f4fa;
