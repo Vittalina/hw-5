@@ -524,6 +524,11 @@ address {
   position: absolute;
   top: 10px;
   right: 10px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .is-hidden {
   opacity: 0;
@@ -531,13 +536,13 @@ address {
   visibility: hidden;
 }
 .modal-icon-link {
-  width: 30;
-  height: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .modal-icon {
+  width: 18px;
+  height: 18px;
   color: #000000;
 }
 /*---------------------PRODUCTS--------------------*/
