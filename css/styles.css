@@ -665,15 +665,13 @@ address {
 }
 /* ---------------------------------- */
 
-.products-list-item:hover .products-list-item-title {
-  margin-bottom: 4px;
-}
 .products-list-item-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
+  margin-bottom: 4px;
 }
 .products-list-item-text {
   font-size: 16px;
